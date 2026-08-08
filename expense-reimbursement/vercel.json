@@ -4,11 +4,5 @@
   "installCommand": "pip install -r requirements.txt",
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api" }
-  ],
-  "functions": {
-    "api/index.py": {
-      "memory": 512,
-      "maxDuration": 30
-    }
-  }
+  ]
 }
